@@ -1,0 +1,16 @@
+{
+  "name": "echat",
+  "version": "1.0.0",
+  "description": "Real-Time Chat App",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "main": "bin/www",
+  "dependencies": {
+    "express": "*",
+    "socket.io":"*",
+    "jade":"*"
+  },
+  "author": "Devon Kelly"
+}
